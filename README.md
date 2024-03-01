@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Online Course Radial Progress Bar
+
+In the dynamic landscape of online learning, my fascination with a sophisticated radial progress bar, elegantly tracking video consumption, sparked the creation of this project. Aiming to not only comprehend but also implement this engaging concept, I chose to leverage Next.js for its robustness, TypeScript for static typing, and Tailwind CSS for a pragmatic approach to styling.
+
+## Motivation
+
+Beyond replication, this project serves as a playground for exploring the synergy of interactive UI elements and educational content. The radial progress bar becomes a visual companion, enhancing the user experience by providing a seamless journey through course materials.
+
+
+## Key Features
+
+- **Radial Progress Visualization**: A visually appealing representation of the user's progression through video content.
+- **Interactive Lessons Tabs**: Streamlined navigation through different lessons via an intuitive tab-based interface.
+- **Responsive Design**: A meticulously crafted layout ensuring adaptability across a spectrum of devices and screen sizes.
+
+## Technologies Employed
+
+- **Next.js**: A robust React framework for building performant and scalable web applications.
+- **TypeScript**: Adding a layer of static typing for enhanced code quality and maintainability.
+- **Tailwind CSS**: A utility-first CSS framework that facilitates rapid and consistent styling.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/alexgrubor/online-course-radial-progress.git
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Navigate to the Directory:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```bash
+    cd online-course-radial-progress
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Install Dependencies:**
 
-## Learn More
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run Application**
+        ```bash
+        npm run dev
+        ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions and suggestions for improvement are warmly welcomed! If you encounter any issues or have ideas to enhance the project, feel free to open an issue or submit a pull request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
